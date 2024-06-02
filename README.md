@@ -11,6 +11,7 @@ The traditional S.R. model partitions the population into three categories: Susc
 
 
 **Key Components:**
+
 Susceptible (S): Individuals at risk of contracting the disease.
 Infected (I): Currently infected individuals who can transmit the disease.
 Recovered (R): Individuals who have recovered from the disease and are no longer infectious.
