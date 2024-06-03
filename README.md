@@ -41,10 +41,13 @@ This equation describes the rate at which susceptible individuals become infecte
 This equation shows the change in the infected population. It includes the same infection term as in the first equation (𝛽𝑆𝐼𝑝(𝑡)), which adds to the infected category. The second term, −𝛾𝐼, represents the rate at which infected individuals recover or die, thus leaving the infected category. The parameter 𝛾 is the recovery rate, where 1/𝛾 is the average duration of infection.
 
 
+**3. Recovered (𝑅):**
 
+![image](https://github.com/aysannazarmohamady/Modified-SIR-Model/assets/30371881/dcca2457-64e9-4f39-97cb-774819a9da63)
 
+This equation tracks the rate of change of the recovered population. It includes only the term 𝛾𝐼, indicating the rate at which individuals are moving from the infected status to the recovered status (assuming recovery confers immunity or the individual is no longer infectious).
 
-
+In summary, these equations model the dynamics of an epidemic, accounting for how interventions impact the infection rate through the modification factor 𝑝(𝑡). This allows the model to adapt to real-world scenarios where public health measures are enacted to control the spread of the disease.
 
 
 **Methodology**
