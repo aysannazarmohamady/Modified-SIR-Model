@@ -19,4 +19,12 @@ The traditional S.R. model partitions the population into three categories: Susc
 - Recovered (R): Individuals who have recovered from the disease and are no longer infectious.
 
 
+The model is governed by the following system of differential equations, where 
+𝑝
+(
+𝑡
+)
+p(t) modifies the infection rate 
+𝛽
+β based on intervention policies:
 
