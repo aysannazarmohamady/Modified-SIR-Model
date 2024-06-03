@@ -67,4 +67,4 @@ The model, while robust, has limitations due to assumptions such as a constant t
 
 * Original Research Article: Analysis of COVID-19 Data with PRISM
 
-* PRISM Model Checker: PRISM Website
+* PRISM Model Checker: [PRISM Website](https://www.prismmodelchecker.org/)
