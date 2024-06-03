@@ -64,5 +64,7 @@ The implementation involves setting up a Python environment with libraries such 
 The model, while robust, has limitations due to assumptions such as a constant total population and homogeneous mixing. Future work could include refining the intervention coefficient 𝑝(𝑡) to better represent phased introductions of measures or integrating additional data sources such as mobility or demographic information.
 
 
-*** Original Research Article:** Analysis of COVID-19 Data with PRISM
-***PRISM Model Checker:** PRISM Website
+
+* Original Research Article: Analysis of COVID-19 Data with PRISM
+
+* PRISM Model Checker: PRISM Website
