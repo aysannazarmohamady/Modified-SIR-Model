@@ -1,17 +1,17 @@
 # Modified SIR Model
 
 
-**Introduction**
+📍 **Introduction**
 
 This document the modified Susceptible-Infected-Recovered (SIR) model for COVID-19, incorporating governmental prevention measures into the traditional SIR framework. This modification allows the model to account for varying levels of social restrictions, which are represented by a time-dependent coefficient. This enhancement aims to provide more accurate simulations of disease spread under different policy implementations, useful for public health planning and response evaluation.
 
 
-**Model Overview**
+📃 **Model Overview**
 
 The traditional S.R. model partitions the population into three categories: Susceptible (S), Infected (I), and Recovered (R). The modified SIR model introduced in this research adds a dynamic coefficient to the infection rate to reflect the impact of governmental interventions like lockdowns or social distancing measures.
 
 
-**Key Components:**
+🔑 **Key Components:**
 
 - Susceptible (S): Individuals at risk of contracting the disease.
 
@@ -50,7 +50,7 @@ This equation tracks the rate of change of the recovered population. It includes
 In summary, these equations model the dynamics of an epidemic, accounting for how interventions impact the infection rate through the modification factor 𝑝(𝑡). This allows the model to adapt to real-world scenarios where public health measures are enacted to control the spread of the disease.
 
 
-**Methodology**
+⛯ **Methodology**
 
 **1. Model Definition:** Includes setting up the basic structure and equations based on epidemiological data.
 
@@ -61,12 +61,12 @@ In summary, these equations model the dynamics of an epidemic, accounting for ho
 **4. Simulation and Analysis:** Conducts stochastic simulations and model checking to evaluate the impact of different intervention strategies and predict future disease spread.
 
 
-**Data Requirements**
+📊 **Data Requirements**
 
 The model requires daily updated data on COVID-19 cases, including the number of new infections, recoveries, and active cases. The data format should be structured to enable efficient processing and integration into the simulation environment.
 
 
-**Evaluation Metrics**
+📏 **Evaluation Metrics**
 
 The performance of the model is evaluated using:
 
@@ -74,7 +74,7 @@ The performance of the model is evaluated using:
 - ****Predictive Power:**** Ability to forecast future trends under different scenarios.
 
 
-**Implementation Details**
+⌨️ **Implementation Details**
 
 The implementation involves setting up a Python environment with libraries such as NumPy and SciPy for numerical operations. The CTMC model is implemented in the PRISM programming language. Detailed steps to set up and run the model are as follows:
 
@@ -83,11 +83,11 @@ The implementation involves setting up a Python environment with libraries such 
 - Execute the Jupyter Notebook included in the repository to perform parameter estimation and initial simulations.
 - Set up PRISM and run the provided model scripts to perform detailed stochastic analysis.
 
-**Limitations and Future Work**
+📚 **Limitations and Future Work**
 The model, while robust, has limitations due to assumptions such as a constant total population and homogeneous mixing. Future work could include refining the intervention coefficient 𝑝(𝑡) to better represent phased introductions of measures or integrating additional data sources such as mobility or demographic information.
 
 
 
-* Original Research Article: Analysis of COVID-19 Data with PRISM
+🔗 * Original Research Article: Analysis of COVID-19 Data with PRISM
 
-* PRISM Model Checker: [PRISM Website](https://www.prismmodelchecker.org/)
+🔗 * PRISM Model Checker: [PRISM Website](https://www.prismmodelchecker.org/)
