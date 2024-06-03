@@ -47,8 +47,8 @@ The model requires daily updated data on COVID-19 cases, including the number of
 
 The performance of the model is evaluated using:
 
-**- Accuracy of Fit:** How well the model predictions align with observed data.
-**- Predictive Power:** Ability to forecast future trends under different scenarios.
+- ****Accuracy of Fit:**** How well the model predictions align with observed data.
+- ****Predictive Power:**** Ability to forecast future trends under different scenarios.
 
 
 
