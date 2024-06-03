@@ -20,8 +20,11 @@ The traditional S.R. model partitions the population into three categories: Susc
 
 
 The model is governed by the following system of differential equations, where 𝑝(𝑡) modifies the infection rate 𝛽 based on intervention policies:
-\begin{align*}
-\frac{dS}{dt} & = -\beta SI p(t) \\
-\frac{dI}{dt} & = \beta SI p(t) - \gamma I \\
-\frac{dR}{dt} & = \gamma I
-\endart{align*}
+![image](https://github.com/aysannazarmohamady/Modified-SIR-Model/assets/30371881/217156ef-4b81-45b2-afea-52f5a9666a2d)
+
+
+
+
+
+
+
