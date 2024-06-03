@@ -24,7 +24,27 @@ The model is governed by the following system of differential equations, where �
 
 ![image](https://github.com/aysannazarmohamady/Modified-SIR-Model/assets/30371881/217156ef-4b81-45b2-afea-52f5a9666a2d)
 
-Here, 𝛽 represents the transmission rate per contact and 𝛾 is the recovery rate.
+(Here, 𝛽 represents the transmission rate per contact and 𝛾 is the recovery rate.)
+
+**Each equation represents the rate of change over time of different groups in the population:**
+
+**1. Susceptible (𝑆):**
+
+![image](https://github.com/aysannazarmohamady/Modified-SIR-Model/assets/30371881/ec9d9f18-93f5-41ae-acc4-13c3c0615e3d)
+
+This equation describes the rate at which susceptible individuals become infected. Here, 𝛽 represents the contact rate that leads to new infections, 𝑆 is the proportion of susceptible individuals, 𝐼 is the proportion of infected individuals, and 𝑝(𝑡) is a time-dependent modification factor that represents the effectiveness of intervention measures (like social distancing or lockdowns). The product 𝛽𝑆𝐼𝑝(𝑡) is the rate at which susceptible individuals are becoming infected, and it's subtracted from the susceptible group because these individuals are moving into the infected category.
+
+**2. Infected (𝐼): **
+
+![image](https://github.com/aysannazarmohamady/Modified-SIR-Model/assets/30371881/3c76c6e4-ef7b-4bb6-8f6b-156f272caafb)
+
+This equation shows the change in the infected population. It includes the same infection term as in the first equation (𝛽𝑆𝐼𝑝(𝑡)), which adds to the infected category. The second term, −𝛾𝐼, represents the rate at which infected individuals recover or die, thus leaving the infected category. The parameter 𝛾 is the recovery rate, where 1/𝛾 is the average duration of infection.
+
+
+
+
+
+
 
 
 **Methodology**
