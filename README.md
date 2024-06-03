@@ -51,5 +51,18 @@ The performance of the model is evaluated using:
 - ****Predictive Power:**** Ability to forecast future trends under different scenarios.
 
 
+**Implementation Details**
+
+The implementation involves setting up a Python environment with libraries such as NumPy and SciPy for numerical operations. The CTMC model is implemented in the PRISM programming language. Detailed steps to set up and run the model are as follows:
+
+- Install Python and required packages.
+- Clone the repository from GitHub: SIR-covid.
+- Execute the Jupyter Notebook included in the repository to perform parameter estimation and initial simulations.
+- Set up PRISM and run the provided model scripts to perform detailed stochastic analysis.
+
+**Limitations and Future Work**
+The model, while robust, has limitations due to assumptions such as a constant total population and homogeneous mixing. Future work could include refining the intervention coefficient 𝑝(𝑡) to better represent phased introductions of measures or integrating additional data sources such as mobility or demographic information.
 
 
+*** Original Research Article:** Analysis of COVID-19 Data with PRISM
+***PRISM Model Checker:** PRISM Website
