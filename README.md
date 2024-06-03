@@ -22,7 +22,7 @@ The traditional S.R. model partitions the population into three categories: Susc
 
 The model is governed by the following system of differential equations, where 𝑝(𝑡) modifies the infection rate 𝛽 based on intervention policies:
 
-                                        ![image](https://github.com/aysannazarmohamady/Modified-SIR-Model/assets/30371881/217156ef-4b81-45b2-afea-52f5a9666a2d)
+![image](https://github.com/aysannazarmohamady/Modified-SIR-Model/assets/30371881/217156ef-4b81-45b2-afea-52f5a9666a2d)
 
 Here, 𝛽 represents the transmission rate per contact and 𝛾 is the recovery rate.
 
@@ -43,7 +43,12 @@ Here, 𝛽 represents the transmission rate per contact and 𝛾 is the recovery
 The model requires daily updated data on COVID-19 cases, including the number of new infections, recoveries, and active cases. The data format should be structured to enable efficient processing and integration into the simulation environment.
 
 
+**Evaluation Metrics**
 
+The performance of the model is evaluated using:
+
+**- Accuracy of Fit:** How well the model predictions align with observed data.
+**- Predictive Power:** Ability to forecast future trends under different scenarios.
 
 
 
