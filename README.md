@@ -86,6 +86,7 @@ The implementation involves setting up a Python environment with libraries such 
 - Set up PRISM and run the provided model scripts to perform detailed stochastic analysis.
 
 📚 **Limitations and Future Work**
+
 The model, while robust, has limitations due to assumptions such as a constant total population and homogeneous mixing. Future work could include refining the intervention coefficient 𝑝(𝑡) to better represent phased introductions of measures or integrating additional data sources such as mobility or demographic information.
 
 
