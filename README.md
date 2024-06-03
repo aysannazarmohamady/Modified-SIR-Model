@@ -1,5 +1,7 @@
 # Modified SIR Model
 
+![image](https://github.com/aysannazarmohamady/Modified-SIR-Model/assets/30371881/7dbe9207-27de-463c-90fb-9195b3861a05)
+
 
 📍 **Introduction**
 
